@@ -20,7 +20,7 @@ backend-entrega1/
 │     ├── products.router.js  # Rutas para productos
 │     └── carts.router.js     # Rutas para carritos
 │
-├── index.js                # Archivo principal del servidor
+├── app.js                # Archivo principal del servidor
 ├── package.json
 └── .gitignore
 ```
@@ -42,7 +42,7 @@ backend-entrega1/
 
 3. Ejecutá el servidor:
    ```bash
-   nodemon index.js
+   nodemon app.js
    ```
 
 El servidor estará escuchando en:
